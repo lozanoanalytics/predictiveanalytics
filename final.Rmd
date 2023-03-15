@@ -1,0 +1,99 @@
+---
+title: "The Federal Reserve's LSAP Program: A Predictive Approach Post the 2008 Financial Crisis"
+subtitle: "Boston College: Predictive Analytics"
+author: "Authors: Ivan Lozano"
+date: "Date: `r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  html_document:
+    code_folding: hide
+    number_sections: true
+    toc: true
+---
+
+<script src="hideOutput.js"></script>
+
+
+```{r setup, include=FALSE, echo=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+#Source Final Project
+source("C:/Users/ANONYMOUS/Documents/BC/BC_Spring_2019/Predictive_Analytics/Midterm/RCode/_Setup2.R")
+read_chunk("Final_chunks.R")
+
+echo_TF <- F
+```
+# Introduction
+
+A.	Motivation:
+The reason behind investigating the effects that quantitative easing had on the housing market is due to eveidence in history showing how monetary policy intervention had an influence on mortgage rates and home prices.
+B.	Objectives:
+The objective of this project will be to use predictive power and machine learning to estimate the prior, current and future effect that the Federal Reserve's large-scale asset program had on the average housing prices in the US. While there were several key players in the 2008 housing crisis and the recovery, it is clear that the Federal Reserve helped through their Quantitative Easing program. This paper will aim to analyze the effects of buying up treasuries and MBS products on mortgage rate and housing prices. The primary models that will be used are predictive models that will take on historical data. The end of the analysis will include regression models that will aim to estimate the economic impact that expansionary monetary policy has on the housing prices.
+C.	Organizational overview:
+We will start the analysis of our data by explaining some of the despcriptive statistics of the data collected. This will allow us to decipher the trends in prices of homes, mortgage rates and the movement of buying and selling of securities that have a direct impact on the US economy. The next part of our analysis will be to portray the time-series and to run some predictive models to show how the data will change in the future. The final part of our analysis will be to analyze the comparison of previously analyzed data in our literature review.
+
+## Structure of this paper is as indicated
+
+__Effects of QE__
+
+1. Outline
+    + Data Cleaning
+    + Descriptive Statistics
+    + Modeling
+    + Conclusion
+
+## Reading in the data - Training
+Step 1: I am going to load up the training data for this excercise.
+
+Description: Below we can see what the data looks like in our training data for our two main training datasets. Based on the display we can see that we are dealing with data. For our mortgage rate data we can see that there are several missing values for 15-year, and 1-year fixed rates. Our mortgage rate data also starts much earlier, dating back to 1971, which may be a reason for the earlier missing data. We will have to find a common date when we merge our datsets for further analysis.
+
+```{r 1.1_read_training_data}
+```
+
+## Data Cleaning
+
+This part of the paper will involve data cleaning. This will consist of renaming the variables, understanding the data type, and noting any missing values from each of our seperate datasets. We will also change the format of our data into time-series data, so that we can use forecasting analysis.
+
+```{r 1.2_data_cleaning}
+```
+
+## Descriptive statistics
+
+This part of the project will involve describing the data to show what the units, size, and trends of the data. It is important to note this basic summary of the data, so we can make a judgement on any data transformations, pre-analysis of the data and the distribution of the data. This data is collected from the Federal Reserve Economic Database, and it show's the securities held by the Federal Reserve System over-time. Graph 1 we can analyze that MBS products were never on the balance sheet of the Federal Reserve up until 2009 which was the beginning of the quantitative easing  program. Before this program the Federal Reserve mainly bought and sold were treasuries. These treasuries consist mainly of treasury bills and bonds. Prior to the recession of 2008 their balance-sheet contained short-term treasuries and long-term treasuries.
+
+```{r 1.3_mbs_plt}
+```
+
+Graph 2 data is collected from Freddie Mac and it show's the changes in interest-rates of typical 30-year, 15-year fixed mortgage rates. I have also included 1 year treasury rates, and 1 year margin rates, but these will be dropped from the final analysis of the dataset. It is important to note how large the 30-year fixed mortgage rates fluctuate over time and upon recessions. When we go to run modeling on the merged files we will be taking only values from 2002 and on to avoid any missing data, but also to standardize the combined sets into monthly data.
+
+```{r 1.3_mortgage_plt}
+```
+
+Graph 3 and 4 will show the Case-Schiller Index and will display how average home prices move over time. 
+```{r 1.3_treas_plt}
+```
+
+```{r 1.3_hpi_plt}
+```
+
+Now, that we have displayed ll of our time-series plots, let's subset and merge our datasets to get 1 complete dataset. One note to make is that our subsetted data will start from 2002 and on.
+```{r 1.3_merge_data}
+```
+
+Let's plot some more descriptive statistics, such as a correlation matrix, scatter plot, and histograms. This will allow us to get
+```{r 1.3_visuals}
+```
+
+```{r 1.3_scatter}
+```
+
+```{r 1.3_corr}
+```
+
+Now that we have numerically and visually described all of our data, we can move onto modeling of our datasets. 
+
+```{r 2.1_modeling}
+```
+
+```{r 2.2_split_data}
+```
+
