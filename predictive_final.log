@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.16)  13 APR 2023 01:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.16)  20 APR 2023 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./predictive_final_Ivan.tex
-(predictive_final_Ivan.tex
+**./predictive_final.tex
+(predictive_final.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28>
 (C:\Users\ANONYMOUS\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -381,8 +381,8 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 ty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-runsystem(texcount -tex -sum predictive_final_Ivan.tex > predictive_final_Ivan.
-wordcount.tex)...disabled (restricted).
+runsystem(texcount -tex -sum predictive_final.tex > predictive_final.wordcount.
+tex)...disabled (restricted).
 
 
 (C:\Users\ANONYMOUS\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
@@ -394,7 +394,7 @@ tim
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
-) (predictive_final_Ivan.aux
+) (predictive_final.aux
 
 LaTeX Warning: Label `tab:unnamed-chunk-11' multiply defined.
 
@@ -411,26 +411,26 @@ LaTeX Warning: Label `tab:unnamed-chunk-11' multiply defined.
 LaTeX Warning: Label `tab:unnamed-chunk-11' multiply defined.
 
 )
-\openout1 = `predictive_final_Ivan.aux'.
+\openout1 = `predictive_final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 (C:\Users\ANONYMOUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
@@ -491,18 +491,18 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 83.
-(predictive_final_Ivan.out) (predictive_final_Ivan.out)
+Package hyperref Info: Link coloring OFF on input line 81.
+(predictive_final.out) (predictive_final.out)
 \@outlinefile=\write3
-\openout3 = `predictive_final_Ivan.out'.
+\openout3 = `predictive_final.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 
 (C:\Users\ANONYMOUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (C:\Users\ANONYMOUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -517,131 +517,131 @@ Missing character: There is no ï in font cmr12!
 [10] [11] [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 173.
+(hyperref)                removing `\\' on input line 171.
 
-Package color Info: Redefining color shadecolor on input line 180.
+Package color Info: Redefining color shadecolor on input line 178.
 <figure/unnamed-chunk-2-1.pdf, id=98, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf  used on input line 181.
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf  used on input line 179.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 181--182
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 179--180
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 186.
+Package color Info: Redefining color shadecolor on input line 184.
 <figure/unnamed-chunk-3-1.pdf, id=99, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-3-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-3-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf  used on input line 187.
+Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf  used on input line 185.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 187--188
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 185--186
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 192.
+Package color Info: Redefining color shadecolor on input line 190.
 [13 <./figure/unnamed-chunk-2-1.pdf>]
 <figure/unnamed-chunk-4-1.pdf, id=113, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf  used on input line 193.
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf  used on input line 191.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 193--194
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 198.
+Package color Info: Redefining color shadecolor on input line 196.
 [14 <./figure/unnamed-chunk-3-1.pdf>]
 <figure/unnamed-chunk-5-1.pdf, id=126, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-5-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf  used on input line 199.
+Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf  used on input line 197.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 199--200
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 197--198
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 204.
+Package color Info: Redefining color shadecolor on input line 202.
 [15 <./figure/unnamed-chunk-4-1.pdf>]
 <figure/Data_and_Methodology-1.pdf, id=139, 505.89pt x 505.89pt>
 File: figure/Data_and_Methodology-1.pdf Graphic file (type pdf)
 <use figure/Data_and_Methodology-1.pdf>
 Package pdftex.def Info: figure/Data_and_Methodology-1.pdf  used on input line 
-205.
+203.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 205--206
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 203--204
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 211.
+Package color Info: Redefining color shadecolor on input line 209.
 [16 <./figure/unnamed-chunk-5-1.pdf>]
 <figure/unnamed-chunk-6-1.pdf, id=152, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf  used on input line 212.
+Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf  used on input line 210.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 212--213
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 210--211
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 217.
+Package color Info: Redefining color shadecolor on input line 215.
 
-Overfull \hbox (49.66833pt too wide) in paragraph at lines 222--243
- [][] 
+Overfull \hbox (218.41228pt too wide) in paragraph at lines 218--237
+[][] 
  []
 
 [17 <./figure/Data_and_Methodology-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 250.
+Package color Info: Redefining color shadecolor on input line 244.
 <figure/unnamed-chunk-7-1.pdf, id=162, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-7-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-7-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf  used on input line 251.
+Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf  used on input line 245.
+(pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 245--246
+[][] 
+ []
+
+Package color Info: Redefining color shadecolor on input line 250.
+[18 <./figure/unnamed-chunk-6-1.pdf>]
+<figure/unnamed-chunk-8-1.pdf, id=173, 505.89pt x 505.89pt>
+File: figure/unnamed-chunk-8-1.pdf Graphic file (type pdf)
+<use figure/unnamed-chunk-8-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-8-1.pdf  used on input line 251.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
 Overfull \hbox (17.62482pt too wide) in paragraph at lines 251--252
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 256.
-[18 <./figure/unnamed-chunk-6-1.pdf>]
-<figure/unnamed-chunk-8-1.pdf, id=173, 505.89pt x 505.89pt>
-File: figure/unnamed-chunk-8-1.pdf Graphic file (type pdf)
-<use figure/unnamed-chunk-8-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-8-1.pdf  used on input line 257.
-(pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 257--258
-[][] 
- []
-
-Package color Info: Redefining color shadecolor on input line 263.
+Package color Info: Redefining color shadecolor on input line 257.
 [19 <./figure/unnamed-chunk-7-1.pdf>]
 <figure/unnamed-chunk-9-1.pdf, id=187, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-9-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-9-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-9-1.pdf  used on input line 264.
+Package pdftex.def Info: figure/unnamed-chunk-9-1.pdf  used on input line 258.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 264--265
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 258--259
 [][] 
  []
 
 [20 <./figure/unnamed-chunk-8-1.pdf>] [21 <./figure/unnamed-chunk-9-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 271.
+Package color Info: Redefining color shadecolor on input line 265.
 <figure/Forecasting_Methods-1.pdf, id=207, 505.89pt x 505.89pt>
 File: figure/Forecasting_Methods-1.pdf Graphic file (type pdf)
 <use figure/Forecasting_Methods-1.pdf>
 Package pdftex.def Info: figure/Forecasting_Methods-1.pdf  used on input line 2
-97.
+92.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 297--298
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 292--293
 [][] 
  []
 
@@ -650,10 +650,10 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 297--298
 File: figure/Forecasting_Methods-2.pdf Graphic file (type pdf)
 <use figure/Forecasting_Methods-2.pdf>
 Package pdftex.def Info: figure/Forecasting_Methods-2.pdf  used on input line 3
-28.
+23.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 328--329
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 323--324
 [][] 
  []
 
@@ -662,23 +662,23 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 328--329
 File: figure/Forecasting_Methods-3.pdf Graphic file (type pdf)
 <use figure/Forecasting_Methods-3.pdf>
 Package pdftex.def Info: figure/Forecasting_Methods-3.pdf  used on input line 3
-59.
+54.
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 359--360
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 354--355
 [][] 
  []
 
 [26]
-Package color Info: Redefining color shadecolor on input line 371.
+Package color Info: Redefining color shadecolor on input line 366.
 <figure/unnamed-chunk-10-1.pdf, id=242, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-10-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-10-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-10-1.pdf  used on input line 372.
+Package pdftex.def Info: figure/unnamed-chunk-10-1.pdf  used on input line 367.
 
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 372--373
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 367--368
 [][] 
  []
 
@@ -686,60 +686,63 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 372--373
 <figure/unnamed-chunk-10-2.pdf, id=252, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-10-2.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-10-2.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-10-2.pdf  used on input line 374.
+Package pdftex.def Info: figure/unnamed-chunk-10-2.pdf  used on input line 369.
 
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 374--375
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 369--370
 [][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 379.
+Package color Info: Redefining color shadecolor on input line 374.
 [28 <./figure/unnamed-chunk-10-1.pdf>]
-Overfull \vbox (1.515pt too high) detected at line 404
+Overfull \vbox (1.515pt too high) detected at line 400
  []
 
 [29 <./figure/unnamed-chunk-10-2.pdf>]
 <figure/unnamed-chunk-11-1.pdf, id=271, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-11-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-11-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-11-1.pdf  used on input line 405.
+Package pdftex.def Info: figure/unnamed-chunk-11-1.pdf  used on input line 401.
 
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (23.05177pt too wide) in paragraph at lines 411--420
+Overfull \hbox (13.94055pt too wide) in paragraph at lines 407--416
  [][] 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 405--421
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 401--417
 [][]
  []
 
 [30]
-Overfull \hbox (28.9406pt too wide) in paragraph at lines 427--436
+Missing character: There is no ï in font cmr12!
+
+Overfull \hbox (31.38512pt too wide) in paragraph at lines 423--432
+ [][] 
+ []
+
+Missing character: There is no ï in font cmr12!
+
+Overfull \hbox (23.94058pt too wide) in paragraph at lines 439--448
  [][] 
  []
 
 
-Overfull \hbox (28.05179pt too wide) in paragraph at lines 443--452
+Overfull \hbox (23.05177pt too wide) in paragraph at lines 455--464
  [][] 
  []
 
 
-Overfull \hbox (15.60724pt too wide) in paragraph at lines 459--468
- [][] 
- []
-
-
-Overfull \hbox (34.71844pt too wide) in paragraph at lines 475--484
+Overfull \hbox (33.94061pt too wide) in paragraph at lines 471--480
  [][] 
  []
 
 ! Misplaced alignment tab character &.
 <argument> ...unnamed-chunk-11}Combination: NNET &
-                                                   SNaive\fi 
-l.488 ...amed-chunk-11}Combination: NNET & SNaive}
+                                                   SNaïve\fi 
+l.484 ...amed-chunk-11}Combination: NNET & SNaïve}
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -748,34 +751,47 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Package color Info: Redefining color shadecolor on input line 504.
+Missing character: There is no ï in font cmr12!
+Package color Info: Redefining color shadecolor on input line 500.
 <figure/unnamed-chunk-12-1.pdf, id=276, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-12-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-12-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-12-1.pdf  used on input line 505.
+Package pdftex.def Info: figure/unnamed-chunk-12-1.pdf  used on input line 501.
 
 (pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 505--506
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 501--502
 [][] 
  []
 
-[31 <./figure/unnamed-chunk-11-1.pdf>] [32 <./figure/unnamed-chunk-12-1.pdf>]
-[33] (predictive_final_Ivan.aux)
+[31 <./figure/unnamed-chunk-11-1.pdf>]
+<figure/unnamed-chunk-12-2.pdf, id=289, 505.89pt x 505.89pt>
+File: figure/unnamed-chunk-12-2.pdf Graphic file (type pdf)
+<use figure/unnamed-chunk-12-2.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-12-2.pdf  used on input line 503.
+
+(pdftex.def)             Requested size: 469.75502pt x 469.76265pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 503--504
+[][] 
+ []
+
+[32 <./figure/unnamed-chunk-12-1.pdf>] [33 <./figure/unnamed-chunk-12-2.pdf>]
+[34] (predictive_final.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `predictive_final_Ivan.out' has not changed.
+Package rerunfilecheck Info: File `predictive_final.out' has not changed.
 (rerunfilecheck)             Checksum: 318BD6F17018799AEB11D02087E50F60;1205.
  ) 
 Here is how much of TeX's memory you used:
- 11035 strings out of 475385
- 180726 string characters out of 2775019
- 526416 words of memory out of 3000000
- 32185 multiletter control sequences out of 15000+600000
- 476170 words of font info for 54 fonts, out of 8000000 for 9000
+ 11070 strings out of 475385
+ 181221 string characters out of 2775019
+ 526357 words of memory out of 3000000
+ 32211 multiletter control sequences out of 15000+600000
+ 480517 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,2549b,500s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,11n,77p,2518b,500s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\ANONYMOUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm0700.pk> <C:\Users\ANONYMOUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
 ec/dpi600\tcrm1000.pk><C:/Users/ANONYMOUS/AppData/Local/Programs/MiKTeX/fonts/t
@@ -788,9 +804,9 @@ r12.pfb><C:/Users/ANONYMOUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmr17.pfb><C:/Users/ANONYMOUS/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb><C:/Users/ANONYMOUS/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on predictive_final_Ivan.pdf (33 pages, 462919 bytes).
+Output written on predictive_final.pdf (34 pages, 501676 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
